@@ -1,32 +1,178 @@
-.App {
+body {
   text-align: center;
+  background: black;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #4D4D4D;
+  font-family: 'Niramit', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+button {
+  padding: 15px 20px;
+  background: #1652A0;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+span {
+  display: block;
+}
+
+.phone {
+  width: 392px;
+  height: 712px;
+  border: 1px solid white;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+}
+
+.top, .bottom {
+  height: 80px;
+}
+
+.screen {
+  height: 100%;
+  width: 360px;
+  background: #EAEAEA;
+  margin: 0 auto;
+  position: relative;
+  overflow: scroll;
+  padding-bottom: 20px;
+}
+
+.start-wrapper {
+  margin-top: 12px;
+  display: block;
+}
+
+.icons {
+  position: absolute;
+  margin: 10px;
+}
+
+.menubar {
+  height: 52px;
+  margin-bottom: 20px;
+
+}
+
+.logo {
+  position: absolute;
+  margin: 10px;
+  right: 141px;
+}
+
+.emotions {
+  margin: 50px 8px;
+  height: 50px;
+}
+
+.selected {
+  border: 2px dotted black;
+  border-radius: 25px;
+}
+
+.question {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.question h2 {
+  margin: 0 20px 20px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.options {
+  display: inherit;
+  margin-bottom: 20px;
+}
+
+.measures {
+  height: 50px;
+  width: 50px;
+}
+
+.foodQuestion {
+  flex-direction: column;
+}
+
+.foodQuestion p {
+  margin: 0;
+}
+
+.choices {
+  margin: 5px;
+  background: #B9E6F0;
+  color: #4D4D4D;
+}
+
+.choices p {
+  margin: 0;
+}
+
+.food, .end{
+  width: 200px;
+  height: 200px;
+}
+
+.step {
+  display: flex;
+}
+
+.step p {
+  margin: 10px 0;
+}
+.step img {
+  width: 40px;
+  height: 40px;
+  margin: 5px 20px;
+}
+
+#dashboard {
+  height: 455px;
+}
+
+#menu {
+  left: 0px;
+}
+
+#user {
+  right: 0px;
+}
+
+#stat {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#risk {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #F39237;
+}
+
+#next {
+  margin-left: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#birthdate {
+  font-size: 12px;
+}
+
+#slider {
+  width: 200px;
+  margin: 25px 10px;
 }
